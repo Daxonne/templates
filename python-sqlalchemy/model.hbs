@@ -16,4 +16,5 @@ class {{PascalCase name}}(Base):
 {{/each}}
 
     def __repr__(self) -> str:
-        return f"<{{PascalCase name}} {{PrimaryKeyCamelCase columns}}={self.{{PrimaryKeyCamelCase columns}}}>"
+        pk = self.{{PrimaryKeyCamelCase columns}}
+        return f"<{{PascalCase name}} {{PrimaryKeyCamelCase columns}}={pk}>"
