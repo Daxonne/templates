@@ -1,0 +1,26 @@
+[
+  {
+    "name": "csharp-dapper",
+    "version": "1.0.0",
+    "language": "C#",
+    "description": "C# records + Dapper CRUD repositories"
+  },
+  {
+    "name": "typescript-prisma",
+    "version": "1.0.0",
+    "language": "TypeScript",
+    "description": "TypeScript types + Prisma client queries"
+  },
+  {
+    "name": "java-jpa",
+    "version": "1.0.0",
+    "language": "Java",
+    "description": "Java entities + Spring Data JPA repositories"
+  },
+  {
+    "name": "python-sqlalchemy",
+    "version": "1.0.0",
+    "language": "Python",
+    "description": "Python SQLAlchemy models + async repositories"
+  }
+]

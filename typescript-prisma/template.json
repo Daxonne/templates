@@ -1,0 +1,19 @@
+{
+  "name": "typescript-prisma",
+  "version": "1.0.0",
+  "language": "typescript",
+  "description": "Generates TypeScript types + Prisma client queries",
+  "author": "daxonne",
+  "files": [
+    {
+      "template": "types.hbs",
+      "output": "{{PascalCase name}}.ts",
+      "per": "table"
+    },
+    {
+      "template": "service.hbs",
+      "output": "{{PascalCase name}}Service.ts",
+      "per": "table"
+    }
+  ]
+}

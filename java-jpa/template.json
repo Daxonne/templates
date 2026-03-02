@@ -1,0 +1,19 @@
+{
+  "name": "java-jpa",
+  "version": "1.0.0",
+  "language": "java",
+  "description": "Generates Java entities + Spring Data JPA repositories",
+  "author": "daxonne",
+  "files": [
+    {
+      "template": "entity.hbs",
+      "output": "{{PascalCase name}}.java",
+      "per": "table"
+    },
+    {
+      "template": "repository.hbs",
+      "output": "{{PascalCase name}}Repository.java",
+      "per": "table"
+    }
+  ]
+}

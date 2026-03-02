@@ -1,0 +1,19 @@
+{
+  "name": "python-sqlalchemy",
+  "version": "1.0.0",
+  "language": "python",
+  "description": "Generates Python SQLAlchemy models + async repositories",
+  "author": "daxonne",
+  "files": [
+    {
+      "template": "model.hbs",
+      "output": "{{SnakeCase name}}.py",
+      "per": "table"
+    },
+    {
+      "template": "repository.hbs",
+      "output": "{{SnakeCase name}}_repository.py",
+      "per": "table"
+    }
+  ]
+}
